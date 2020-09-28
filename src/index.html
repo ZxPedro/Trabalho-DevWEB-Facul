@@ -4,33 +4,34 @@
         <title>Aps1</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="reset.css">
-		<link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <script src="index.js"></script> 
     </head>
     <body>
-
         <header>
-            <img src="../assets/logo.png" alt="Logo" width="200"> 
-            <nav>
+            <img id = "logo" class= "" src="../assets/logo.png" alt="Logo" width="200"> 
+            <nav id = "cabecalho">
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="vacinas.html">Vacinas</a></li>
-                    <li><a href="grupo.html">Grupo</a></li>
+                    <li class = "bar"><a href="index.html">Home</a></li>
+                    <li class = "bar"><a href="vacinas.html">Vacinas</a></li>
+                    <li class = "bar"><a href="grupo.html">Grupo</a></li>
                 </ul>
             </nav>
         </header>
 
         <!-- Home -->
-        <section>
+        <section id = "home">
             <img src="../assets/covid.png" alt="Covid" width="350">
-            <p>Vamos lutar contra a Covid 19</p>
-            <a href="https://github.com/">Saiba mais</a>
+            <p id = "frase">Vamos lutar contra a Covid 19</p>
+            <p id = "more"><a id = "more" href="#saiba">Saiba mais</a></p>
         </section>
 
         <!-- Home 2-->
         <main>
-            <section>
-                <p> <!-- Texto Dissertativo -->
+            <section id = "saiba">
+                <img id = "imagem" src="../assets/covid.png" alt="Covid">
+                <p id = "texto"> <!-- Texto Dissertativo -->
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis scelerisque massa, et consectetur tortor. 
                     Vivamus mollis imperdiet arcu id rutrum. Quisque ultricies erat nulla, id accumsan arcu malesuada non. 
                     Cras a quam scelerisque, accumsan erat vitae, tincidunt turpis. 
@@ -38,12 +39,10 @@
                     Sed facilisis dolor velit, eget dictum ligula placerat sit amet. Nam placerat eget neque eget porta. 
                     Nullam eget odio porta justo dictum hendrerit non vel sapien.
                 </p>
-
-                <img src="../assets/covid.png" alt="Covid" width="350">
                 <br>
-                <h4>Casos Covid19</h4>
-                <img src="../assets/covid.png" alt="Covid" width="350">
-                <p> <!-- Texto Dissertativo -->
+                <h1 id = "casos">Casos Covid19</h1>
+                <img id = "imagem2" src="../assets/covid.png" alt="Covid">
+                <p id = "texto2"> <!-- Texto Dissertativo -->
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis scelerisque massa, et consectetur tortor. 
                     Vivamus mollis imperdiet arcu id rutrum. Quisque ultricies erat nulla, id accumsan arcu malesuada non. 
                     Cras a quam scelerisque, accumsan erat vitae, tincidunt turpis. 
@@ -53,10 +52,11 @@
                 </p>
             </section>
         </main>
-
         <footer> <!-- Rodapé -->
-            <p>© Copyright 2020 - Todos os direitos reservados</p>
-            <p>Data</p>
+                <ul>
+                    <li id = "copy">© Copyright 2020 - Todos os direitos reservados</li>
+                    <li id = "data">Data</li>
+                </ul>
         </footer>
     </body>
 </html>

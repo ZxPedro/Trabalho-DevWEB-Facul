@@ -1,0 +1,175 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    top:0px;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    font-weight: 100;
+}
+
+
+#logo{
+    float: left;
+    padding-bottom:px;
+}
+
+#cabecalho {
+    background:#ADD8E6;
+    height: 80px;
+    padding: 10px;
+}
+
+.bar{
+    position: relative;
+    display: inline-block;
+}
+
+.bar::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    background-color:#8dafba;
+
+    transition: transform 0.3s;
+}
+
+.bar:hover::after{
+    transform: scaleX(1);
+}
+
+body{
+    padding: 0px;
+    margin:0px;
+    background-color: #F9F9F9;
+    
+}
+
+#home{
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+    padding-top: 250px;
+    font-size: 20px;
+}
+
+#frase{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#more{
+    padding-top: 160px;
+    color:#8dafba;
+}
+
+#saiba{
+    padding-top: 100px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#texto{
+    text-align: justify;
+    padding-top: 100px;
+}
+
+#texto2{
+    text-align: justify;
+    padding-top: 250px;
+}
+
+#imagem{
+    width:650px;
+    height:420px;
+    float: left;
+    padding-right: 10px;
+}
+
+#imagem2{
+    padding-top: 80px;
+    width:650px;
+    height:420px;
+    padding-left: 10px;
+    float: right;
+}
+
+#casos{
+    padding-top: 150px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#cabecalho li {
+    display: inline-block;
+    padding: 15px;
+    padding-top: 25px;
+    font-size:20px;
+}
+
+#data{
+    float: right;
+}
+
+#copy{
+    padding-top: 15px;
+}
+
+#vacina1{
+    padding: 20px;
+    padding-top: 100px;
+    text-align: justify;
+}
+
+#vacina2{
+    padding: 20px;
+    padding-top: 200px;
+    text-align: justify;
+}
+
+#vac1{
+    float: right;
+    padding-top: 15px;
+    color: #8dafba;;
+}
+
+
+#divi1{
+    padding-top: 100px;
+}
+
+#divi2{
+    padding-top: 300px;
+}
+
+#divi4{
+    padding-top: 230px;
+    padding-bottom: 50px;
+}
+
+footer{
+    background:#ADD8E6;
+    font-size: 0.75em;
+    text-align: center;
+    padding:15px;
+    clear: both;
+}
