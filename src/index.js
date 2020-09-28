@@ -24,4 +24,6 @@ const interval = setInterval(() => {
 
   // Exibe na tela usando a div#data-hora
   document.getElementById("data").innerHTML = dataHora;
+  document.getElementById("data1").innerHTML = dataHora;
+  document.getElementById("data2").innerHTML = dataHora;
 }, 1000);
