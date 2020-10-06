@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Aps1</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>	
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <img id="logo" class="" src="../assets/logo.png" alt="Logo" width="200" />
+      <nav id="cabecalho">
+        <ul>
+          <li class="bar"><a href="index.html">Home</a></li>
+          <li class="bar"><a href="vacinas.html">Vacinas</a></li>
+          <li class="bar"><a href="mapa.html">Mapa</a></li>
+          <li class="bar"><a href="grupo.html">Grupo</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+        <h1>Mapeamento COVID-19</h1>
+        <img src="../assets/continentes.png" alt="Mapa dos continentes" usemap="#mapa">
+        <map name="mapa">
+            <area onclick="norte()" shape="rect" coords="124, 214, 196, 253" href="#"> <!--América do Norte-->
+            <area onclick="sul()" shape="rect" coords="200, 399, 266, 440" href="#">  <!--América do Sul-->
+            <area onclick="africa()" shape="rect" coords="398, 342, 457, 374" href="#">  <!--África-->
+            <area onclick="europa()" shape="rect" coords="394, 216, 449, 240" href="#">  <!--Europal-->
+            <area onclick="asia()" shape="rect" coords="526, 215, 591, 253" href="#">  <!--Ásia-->
+            <area onclick="oceania()" shape="rect" coords="646, 444, 716, 469" href="#">  <!--Oceania-->
+        </map>
+        <div id="info-map">
+            <h1 id="1">Continente</h1>
+            <p>Número de contaminados: <spam id="2"></spam> </p>
+            <p>Número de recuperados: <spam id="3"></spam> </p>
+            <p>Número de óbitos: <spam id="4"></spam>  </p>
+        </div>
+    </section>
+    
+    <footer>
+      <ul>
+        <li id="copy">© Copyright 2020 - Todos os direitos reservados</li>
+        <li id="data">Data</li>
+      </ul>
+    </footer>
+  </body>
+</html>
