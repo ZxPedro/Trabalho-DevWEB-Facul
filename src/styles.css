@@ -245,3 +245,15 @@ footer {
 #info-map p{
   font-size: 25px;
 }
+
+#video{
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: #FFF;
+}
+
+#mapa{
+  background-color: #FFF;
+  padding-bottom: 10px;
+}
+
